@@ -1,0 +1,12 @@
+name: Force Index Context
+id: force_index_context
+author_name: <__trans phrase="Hajime Fujimoto">
+author_link: http://www.h-fj.com/blog/
+description: <__trans phrase="Force index context.">
+plugin_link: http://www.h-fj.com/blog/mt5plgdoc/forceindexcontext.php
+doc_link: http://www.h-fj.com/blog/mt5plgdoc/forceindexcontext.php
+l10n_class: ForceIndexContext::L10N
+version: 1.00
+tags:
+  block:
+    ForceIndexContext: $ForceIndexContext::ForceIndexContext::Plugin::force_index_context

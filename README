@@ -1,0 +1,24 @@
+This plugin enables to force index context in template.
+
+Example:
+Displays titles of recently 10 entries in any template.
+
+<mt:ForceIndexContext>
+  <mt:Entries lastn="10" sort_order="descend">
+     <$mt:EntryTitle$>
+  </mt:Entries>
+</mt:ForceIndexContext>
+
+-------------------------------------------------
+
+常にインデックステンプレートのコンテキストでテンプレートタグを動作させることができます。
+
+例：
+どのテンプレートでも最近１０件のブログ記事のタイトルを出力する。
+
+<mt:ForceIndexContext>
+  <mt:Entries lastn="10" sort_order="descend">
+     <$mt:EntryTitle$>
+  </mt:Entries>
+</mt:ForceIndexContext>
+
